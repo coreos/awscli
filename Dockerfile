@@ -7,3 +7,5 @@ RUN apk --no-cache --update add bash curl less groff jq python py-pip && \
   mkdir /root/.aws && \
   aws --version && \
   s3cmd --version
+
+CMD /bin/sh -c
