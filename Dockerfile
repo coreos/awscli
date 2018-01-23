@@ -8,4 +8,4 @@ RUN apk --no-cache --update add bash curl less groff jq python py-pip && \
   aws --version && \
   s3cmd --version
 
-CMD /bin/sh -c
+ENTRYPOINT []
